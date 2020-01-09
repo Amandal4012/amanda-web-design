@@ -1,1 +1,1 @@
-# amandalum-web-design
+This is my folder for the weeks activities
