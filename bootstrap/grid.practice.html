@@ -27,14 +27,25 @@ border: 1px solid black;
 height: 100px;
 width: 200px;
 }
+
+.col {
+margin-top:50px;
+margin-bottom: 0px;
+margin-left: 90px;
+background-color: #89CFF0;
+border: 1px solid black;
+height: 100px;
+width: 200px;
+}
 </style>
 
 
   </head>
   <body>
-  <div class="container"></div>
-   <div class="row"></div>
-
+  <div class="container">First in DOM, last here</div>
+   <div class="row">Second in DOM, first here</div>
+   <div class= "col order-12"></div>
+   <div class= "col order-1">Third in DOM, middle here</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
